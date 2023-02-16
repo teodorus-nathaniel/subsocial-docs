@@ -56,7 +56,7 @@ simpleFormatBalance(balance: BN | string | number, decimals?: number, currency?:
 import { simpleFormatBalance } from '@subsocial/utils'
 const balance = '100000000000000000000' // 1_000_000_000_000_000_000 (18 zeros)
 simpleFormatBalance(balance, 10) // 100,000,000.0000 Unit
-simpleFormatBalance(balance, 10, 'SUB', 'SUB') // 100,000,000.0000 SUB
+simpleFormatBalance(balance, 10, 'SUB') // 100,000,000.0000 SUB
 simpleFormatBalance(balance, 10, 'SUB', false) // 100,000,000.0000
 ```
 
